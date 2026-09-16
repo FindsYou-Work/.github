@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="FindsYou">
+  <title>FindsYou</title>
+  <desc>The catch. Listings fall through the V; most pass, one lands and stays.</desc>
+  <circle cx="158" cy="120" r="24" fill="#4A444C"/>
+  <circle cx="354" cy="120" r="24" fill="#4A444C"/>
+  <path d="M112 176 L256 386 L400 176" fill="none" stroke="#8F878F" stroke-width="40"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256" cy="352" r="52" fill="#E3D3A4"/>
+</svg>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Source for assets/org-banner.png. Regenerate with tools/render.sh.
+     1280x440, rendered at 2x so it stays crisp on retina. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; width: 1280px; height: 440px; overflow: hidden; }
+  body {
+    position: relative; background: #0E0B10; color: #ECE6EA;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 0 84px; font-family: 'IBM Plex Mono', monospace;
+  }
+  /* the listings that fall through, receding to the right */
+  .rain { position: absolute; inset: 0; overflow: hidden; }
+  .card {
+    position: absolute; width: 150px; padding: 9px 11px; border-radius: 4px;
+    background: #0E0B10; border: 1px solid rgba(236,230,234,.16);
+    font-size: 9.5px; line-height: 1.35; color: #5A535A;
+  }
+  .card b { display: block; font-weight: 400; }
+  .card.keep { border-color: #E3D3A4; color: #ECE6EA; }
+  .mark { width: 96px; height: 96px; margin-bottom: 24px; margin-left: -6px; }
+  h1 { font-family: 'Instrument Serif', serif; font-size: 66px; line-height: 1;
+       letter-spacing: -.015em; margin: 0 0 16px; font-weight: 400; }
+  h1 i { font-style: normal; color: #E3D3A4; }
+  p { margin: 0; font-size: 15px; letter-spacing: .04em; color: #8F878F; }
+  .rule { position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: #E3D3A4; }
+</style>
+</head>
+<body>
+  <div class="rain">
+    <div class="card"      style="top:-8px;  right:470px; transform:rotate(-3deg)"><b>Product Designer</b>Copperfield · Remote · US</div>
+    <div class="card"      style="top:96px;  right:250px; transform:rotate(2deg)"><b>DevOps Engineer</b>Kestrel · Hybrid · Berlin</div>
+    <div class="card"      style="top:38px;  right:70px;  transform:rotate(-1deg)"><b>Data Analyst</b>Meridian · Remote · APAC</div>
+    <div class="card"      style="top:232px; right:430px; transform:rotate(1deg)"><b>UX Researcher</b>Fathom · Remote · UK</div>
+    <div class="card"      style="top:326px; right:180px; transform:rotate(-2deg)"><b>Security Engineer</b>Tessera · Remote · US</div>
+    <div class="card keep" style="top:168px; right:560px; transform:rotate(-1deg)"><b>Staff Platform Engineer</b>Northwind · Remote · Worldwide</div>
+    <div class="card keep" style="top:252px; right:96px;  transform:rotate(2deg)"><b>Head of Applied AI</b>Halcyon · Remote · EU</div>
+  </div>
+  <svg class="mark" viewBox="0 0 512 512" aria-hidden="true">
+    <circle cx="158" cy="120" r="24" fill="#4A444C"/><circle cx="354" cy="120" r="24" fill="#4A444C"/>
+    <path d="M112 176 L256 386 L400 176" fill="none" stroke="#8F878F" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="256" cy="352" r="52" fill="#E3D3A4"/>
+  </svg>
+  <h1>finds<span style="color:#8F878F">you</span><i>.work</i></h1>
+  <p>STOP LOOKING. IT FINDS YOU WORK.</p>
+  <div class="rule"></div>
+</body>
+</html>
