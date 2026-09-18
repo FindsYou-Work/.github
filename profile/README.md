@@ -35,7 +35,7 @@ every rejection shown rather than hidden.
 
 ---
 
-## Nothing is built yet, and this org says so
+## Nothing is released yet, and this org says so
 
 This matters more than anything else on this page, so it is first.
 
@@ -43,13 +43,16 @@ This matters more than anything else on this page, so it is first.
 | :--- | :--- | :--- |
 | **The site** | [`website`](https://github.com/FindsYou-Work/website) — one page, one stylesheet, one script, no build step, on Cloudflare Pages. | `SHIPPING` |
 | **The waitlist** | [`waitlist-backend`](https://github.com/FindsYou-Work/waitlist-backend) — a Cloudflare Worker on the [Cratefield](https://cratefield.com) harness `waitlist` module, with a database of its own. | `SHIPPING` |
-| **The product** | The scan, the eligibility filter, the evaluation, the documents, the tracker. | `PLANNED` |
+| **The product** | The scan, the eligibility filter, the profile and its CV index — written, merged, and mounted nowhere. The evaluation, the documents and the tracker are not written yet. | `PLANNED` |
 
-The product is not built. Not a line of it. Everything on the site that
-describes it carries a `planned` chip, the figures in the funnel are labelled an
-illustration, and [`llms.txt`](https://findsyou.work/llms.txt) repeats all of it
-in plain text so an answer engine cannot describe a planned feature as
-available.
+The product is not released. The scan, the eligibility filter and the profile
+exist as code in a private repository, but no module is mounted on the public
+Worker, so there is nothing a visitor can use — which is what `PLANNED` has
+always meant here: built is not the same as usable. Everything on the site that
+describes the product carries a `planned` chip, the figures in the funnel are
+labelled an illustration, and [`llms.txt`](https://findsyou.work/llms.txt)
+repeats all of it in plain text so an answer engine cannot describe a planned
+feature as available.
 
 Two labels are used everywhere, and they govern the tense of the sentence around
 them:
